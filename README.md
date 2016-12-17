@@ -1,7 +1,7 @@
 # MVPinAndroid
 Initialization of App Base using MVP.
 
-![Screenshot](/assets/mvc-mvp.png)
+![Screenshot](/assets/mvc_mvp.png)
 
 
 ## License
