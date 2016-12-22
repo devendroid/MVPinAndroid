@@ -8,14 +8,15 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatButton;
 import android.view.View;
+import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.devs.mvpinandroid.model.dto.RespObj;
 import com.devs.mvpinandroid.model.dto.User;
-import com.devs.mvpinandroid.presenter.IPresenter;
-import com.devs.mvpinandroid.presenter.MainPresenter;
+import com.devs.mvpinandroid.presenter.PresenterListener;
+import com.devs.mvpinandroid.presenter.LoginPresenter;
 
 import static com.devs.mvpinandroid.R.id.et_uname;
 import static com.devs.mvpinandroid.R.id.tv_status;
@@ -24,12 +25,12 @@ import static com.devs.mvpinandroid.R.id.tv_status;
 /**
  * Created by ${Deven} on 17/12/16.
  */
-public class MainActivity extends AppCompatActivity implements View.OnClickListener, IPresenter {
+public class LoginActivity extends AppCompatActivity implements View.OnClickListener, PresenterListener {
 
-    private MainPresenter mainPresenter;
+    private LoginPresenter mainPresenter;
 
     private TextView tvStatus;
-    private EditText etUname;
+    private AutoCompleteTextView etUname;
     private EditText etPassword;
     private AppCompatButton btnLogin;
     private ProgressDialog pd;
@@ -38,11 +39,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mainPresenter = new MainPresenter(this);
+        mainPresenter = new LoginPresenter(this);
         pd = new ProgressDialog(this);
 
         tvStatus = (TextView) findViewById(tv_status);
-        etUname = (EditText) findViewById(et_uname);
+        etUname = (AutoCompleteTextView) findViewById(et_uname);
         etPassword = (EditText) findViewById(R.id.et_password);
         btnLogin = (AppCompatButton) findViewById(R.id.btn_login);
         btnLogin.setOnClickListener(this);
@@ -55,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
         if (networkInfo != null && networkInfo.isConnected()) {
             //Just create new presenter if not exist
-            if (mainPresenter == null) mainPresenter = new MainPresenter(this);
+            if (mainPresenter == null) mainPresenter = new LoginPresenter(this);
 
             //Call
             String userName = etUname.getText().toString();

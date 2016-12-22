@@ -3,12 +3,39 @@
 
     <item
         is-multidex="true"
+        jar="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_511c9431d02e154133f759c5df99523a6fa8ccbe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
         <dex dex="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_e10bb90bb6f2f2b2542bb176334adacfe1446140/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="acce6c107634ef0e16e33a98fb55050a5f1524bb">
+        <dex dex="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_741924b9c971e5933ced1008938cdc535d129feb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/idealtechno/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.4/5faf46d7b5f99d8bdc887ba83c7a966b426740e1/leakcanary-analyzer-1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5faf46d7b5f99d8bdc887ba83c7a966b426740e1">
+        <dex dex="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/leakcanary-analyzer-1.4_432296cd156c8c9624ec5e4fd278353b4dcad7ec/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -66,6 +93,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_1851e7d3830270a4a9985282e7efe7d9b6b60b7d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5e583b1683726f97ea955f0ca8dca78ac761ec5">
+        <dex dex="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.squareup.leakcanary-leakcanary-android-1.4_40b080ffd8b1dc0e82e4c27b41d5eb07099cd707/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -75,12 +120,57 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_f6a627b0c87f37b065ed8470c4918ea6289c691c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_99bca6de485d715e9ab337f83e34f6397b5e6bb8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/idealtechno/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.4/5afc3a836f7523c7dec8ea0da5632a19b354b0a0/leakcanary-watcher-1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5afc3a836f7523c7dec8ea0da5632a19b354b0a0">
+        <dex dex="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/leakcanary-watcher-1.4_385f848e8007cd3f7d4b74a75ed76057ca58466e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/idealtechno/android-sdk-as/SDK/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_28f2eedd99485d7111fd9a861ccd65bf38ed586c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="89402f238207861dcbb7eff62a93a5cb3830d879">
+        <dex dex="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_483a20ee80f870d6f67711b8de0480e0d8043e16/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/idealtechno/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/2.0.3/640a438d2d415c056ca6a673ac26b183b044e160/haha-2.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="640a438d2d415c056ca6a673ac26b183b044e160">
+        <dex dex="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/haha-2.0.3_ca38086a874ef2083e32d8ab3906bb901520ac67/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -99,60 +189,6 @@
         revision="25.0.0"
         sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
         <dex dex="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_53ae0a7c69b173d9f6cc322e77b1183039884db6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_511c9431d02e154133f759c5df99523a6fa8ccbe/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="acce6c107634ef0e16e33a98fb55050a5f1524bb">
-        <dex dex="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_741924b9c971e5933ced1008938cdc535d129feb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_1851e7d3830270a4a9985282e7efe7d9b6b60b7d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_f6a627b0c87f37b065ed8470c4918ea6289c691c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/idealtechno/android-sdk-as/SDK/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_28f2eedd99485d7111fd9a861ccd65bf38ed586c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f642ebc69e7676b8b421b8b623b71d2b787f7c19">
-        <dex dex="/home/idealtechno/AndroidStudioProjects/MVPinAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_483a20ee80f870d6f67711b8de0480e0d8043e16/classes.dex" />
     </item>
 
 </items>

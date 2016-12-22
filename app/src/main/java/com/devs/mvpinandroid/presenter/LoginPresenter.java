@@ -11,18 +11,19 @@ import com.devs.mvpinandroid.model.idao.IUserDao;
  * Created by ${Deven} on 17/12/16.
  */
 
-public class MainPresenter {
+public class LoginPresenter {
 
-    private IPresenter iPresenter;
+    private PresenterListener iPresenter;
     private IUserDao iUserDao;
 
-    public MainPresenter(IPresenter iPresenter) {
+    public LoginPresenter(PresenterListener iPresenter) {
         this.iPresenter = iPresenter;
         iUserDao = new UserDao();
     }
 
     public void getLogin(User user ){
         if(isValid(user)) {
+            iPresenter.showLoadingIndicator();
             new LoginTask().execute(user);
         }
     }
@@ -41,12 +42,12 @@ public class MainPresenter {
         return true;
     }
 
-    private class LoginTask extends AsyncTask<User,RespObj,RespObj> {
+    private  class LoginTask extends AsyncTask<User,RespObj,RespObj> {
 
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            iPresenter.showLoadingIndicator();
+
         }
 
         @Override
@@ -73,5 +74,7 @@ public class MainPresenter {
             }
         }
     }
+
+
 
 }
